@@ -1,0 +1,39 @@
+:root{ /*Custom Propeties*/
+    --primario: #9C27B0;
+    --priamrioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+html {
+    box-sizing: border-box; /* Para que no afecte el padding el tamaño de un elemento*/
+    font-size: 62.5%; /* Nivelar 1Rem=10px, más precision en rem*/
+}
+  *, *:before, *:after {
+    box-sizing: inherit; /*Se aplica el Hack Box model a todos los elementos*/
+  }
+  
+/*Globales*/
+body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;/*En base a la fuente*/
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
